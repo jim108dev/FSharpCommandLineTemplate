@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="src/Shared/Config.fs" />
+    <Compile Include="src/Argument.fs" />
+    <Compile Include="src/Main.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Argu" Version="6.1.1" />
+    <PackageReference Include="FSharp.Configuration" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
